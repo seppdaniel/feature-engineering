@@ -2,7 +2,7 @@ Projeto de Feature Engineering: Preparando Dados para um Modelo de Machine Learn
 
 Introdução: O que é Feature Engineering e sua Importância
 
-Feature Engineering é um processo crucial na área de Ciência de Dados e Machine Learning, envolvendo a seleção, criação e transformação de variáveis (features) a partir dos dados brutos. Seu objetivo é maximizar o desempenho dos modelos de Machine Learning ao criar representações mais informativas e relevantes dos dados. Uma abordagem bem-feita de Feature Engineering pode levar a modelos mais precisos, melhor generalização e insights mais profundos.
+Feature Engineering é um processo crucial na área de Ciência de Dados e Machine Learning, envolvendo a seleção, criação e transformação de variáveis (features) a partir dos dados brutos. Seu objetivo é maximizar o desempenho dos modelos de Machine Learning ao criar representações mais informativas e relevantes dos dados. Uma abordagem bem feita de Feature Engineering pode levar a modelos mais precisos, melhor generalização e insights mais profundos.
 
 Parte 1: Preparação Inicial e Reconhecimento das Variáveis
 
