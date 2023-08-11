@@ -1,3 +1,59 @@
+## Feature Engineering Project: Preparing Data for a Machine Learning Model
+Introduction: Understanding Feature Engineering and Its Significance
+
+Feature Engineering stands as a pivotal process within the realm of Data Science and Machine Learning, encompassing the selection, creation, and transformation of variables (features) derived from raw data. Its primary objective lies in enhancing the performance of Machine Learning models by constructing more informative and relevant data representations. A well-executed approach to Feature Engineering can yield more accurate models, improved generalization, and deeper insights.
+
+Part 1: Initial Preparation and Variable Recognition
+
+- Importation of a database containing client information.
+- Initial exploration of the variables present within the dataset.
+- Removal of unnecessary columns that do not contribute to the model.
+- Examination of data types (Dtypes) to comprehend the nature of the variables.
+
+Part 2: Identification and Resolution of Initial Issues
+
+- Simulating an attempt to apply a Linear Regression model using the original data.
+- Detection of a critical error when attempting to convert categorical data ("Gender") into numerical values.
+- Recognition of the necessity to address categorical variables such as "Gender" and "MaritalStatus."
+- Application of the One Hot Encoder to transform categorical variables into multiple binary columns, preserving their unordered nature.
+
+Part 3: Transformation of Categorical Data Using One Hot Encoder
+
+- Implementation of the One Hot Encoder on the "Gender" and "MaritalStatus" columns.
+- Conversion of data from vectors to dataframes to enhance clarity of visualization.
+- Integration of the original dataset with new columns created by the One Hot Encoder.
+
+Part 4: Handling Ordinal Variables with Ordinal Encoder
+
+- Utilization of the Ordinal Encoder for variables demonstrating a direct order relation: "Category," "Risk," and "CatVIP."
+- Creation of new columns based on data transformed by the Ordinal Encoder.
+- Establishment of category orders guided by computer-based ranking.
+
+Part 5: Classification and Customer Class Verification
+
+- Development of a function to classify customers based on type and category.
+- Creation of a new column incorporating the obtained classifications.
+
+Part 6: Cleaning and Final Preparation
+
+- Removal of redundant columns following the creation of new variables.
+- Completion of the prepared dataset tailored for the Machine Learning model.
+
+Part 7: Linear Regression Model Testing
+
+- Utilization of a Linear Regression model to test the prepared dataset.
+- Successful evaluation of dataset viability post Feature Engineering application.
+- Conclusion and Results
+
+The Feature Engineering process plays a pivotal role in crafting robust and accurate Machine Learning models. Through the creation of significant variables, data transformation, and treatment of categorical and ordinal variables, the initial dataset underwent refinement and optimization, successfully fueling a Linear Regression model. The project showcased how meticulous feature manipulation can positively impact model performance, thereby contributing to more reliable outcomes and valuable insights.
+
+Through this Feature Engineering approach, the project fulfilled its objectives by constructing a dataset primed for application in Machine Learning models, paving the way for precise analyses and data-driven decision-making.
+
+Note: One Hot Encoder is a technique that converts categorical variables into binary vectors for each category. On the other hand, Ordinal Encoder is used when a hierarchical order exists among categories, assigning numerical values based on that order.
+__________
+Portuguese
+__________
+
 ## Projeto de Feature Engineering: Preparando Dados para um Modelo de Machine Learning
 
 Introdução: O que é Feature Engineering e sua Importância
